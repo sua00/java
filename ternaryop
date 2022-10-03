@@ -1,0 +1,16 @@
+// 삼항연산자 (Ternary Opterator)
+// if 문 사용시 코드를 간단하게 작성 가능 그러나 속도가 더 빠른 것은 아님
+// 짝수와 홀수
+public class ternaryop {
+
+    public String evenOrOdd(int num) {
+        return (num % 2 == 0) ? "Even": "Odd";
+    }
+
+    public static void main(String[] args) {
+        ternaryop evenOrOdd = new ternaryop();
+        System.out.println("결과 : " + evenOrOdd.evenOrOdd(3));
+        System.out.println("결과 : " + evenOrOdd.evenOrOdd(2));
+    }
+    
+}
